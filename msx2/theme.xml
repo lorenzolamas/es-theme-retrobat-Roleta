@@ -17,7 +17,6 @@
 	<include subset="personagem" name="luigi">./fundo/luigi.xml</include>
 	<include subset="personagem" name="pacman">./fundo/pacman.xml</include>
 	<include subset="personagem" name="ryu">./fundo/ryu.xml</include>
-	<include subset="personagem" name="scorpion">./fundo/scorpion.xml</include>
 	<include subset="personagem" name="sonic">./fundo/sonic.xml</include>
 	<include subset="personagem" name="spiderman">./fundo/spiderman.xml</include>
 
