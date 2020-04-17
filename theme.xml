@@ -227,8 +227,8 @@ Metadata, description, rating etc
          <zIndex>43</zIndex>         
       </text>
       <datetime name="md_releasedate">
-         <pos>0.45 0.58</pos>
-         <size>0.0375 0.035</size>
+         <pos>0.485 0.58</pos>
+         <size>0.0750 0.035</size>
          <zIndex>43</zIndex>
          <color>ffffff</color>                  
       </datetime>
@@ -244,12 +244,12 @@ Metadata, description, rating etc
          <zIndex>5</zIndex>         
       </text>         
       <text name="md_lbl_playcount">
-         <pos>0.54 0.58</pos>
+         <pos>0.570 0.58</pos>
          <size>0.2 0.035</size>
          <zIndex>5</zIndex>                   
       </text>
       <text name="md_playcount">
-         <pos>0.64 0.58</pos>
+         <pos>0.702 0.58</pos>
          <size>0.0375 0.035</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
@@ -330,7 +330,7 @@ Images, boxart, snaps, wheel art etc
       <video name="md_video">
          <origin>0.5 0.5</origin>
          <pos>0.565 0.32</pos>
-         <maxSize>0.44 0.37</maxSize>
+         <maxSize>0.350 0.37</maxSize>
          <zIndex>6</zIndex>               
       </video> 
       <image name="md_image">
