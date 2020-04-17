@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+	<include subset="personagem" name="mario">./fundo/mario.xml</include>
+	<include subset="personagem" name="alladin">./fundo/alladin.xml</include>
+	<include subset="personagem" name="bison">./fundo/bison.xml</include>
+	<include subset="personagem" name="angrybirds">./fundo/angrybirds.xml</include>
+	<include subset="personagem" name="hyperAntMan">./fundo/hyperAntMan.xml</include>
+	<include subset="personagem" name="banjo">./fundo/banjo.xml</include>
+	<include subset="personagem" name="batman">./fundo/batman.xml</include>
+	<include subset="personagem" name="bomberman">./fundo/bomberman.xml</include>
+	<include subset="personagem" name="captainamerica">./fundo/captainamerica.xml</include>
+	<include subset="personagem" name="crash">./fundo/crash.xml</include>
+	<include subset="personagem" name="gta">./fundo/gta.xml</include>
+	<include subset="personagem" name="kirby">./fundo/kirby.xml</include>
+	<include subset="personagem" name="link">./fundo/link.xml</include>
+	<include subset="personagem" name="luigi">./fundo/luigi.xml</include>
+	<include subset="personagem" name="pacman">./fundo/pacman.xml</include>
+	<include subset="personagem" name="ryu">./fundo/ryu.xml</include>
+	<include subset="personagem" name="scorpion">./fundo/scorpion.xml</include>
+	<include subset="personagem" name="sonic">./fundo/sonic.xml</include>
+	<include subset="personagem" name="spiderman">./fundo/spiderman.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+	<view name="system,basic">		
+      <image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>false</tile>
+         <path>./_inc/background.png</path>
+         <zIndex>1</zIndex>          
+      </image>     			
+	</view>
+</theme>
