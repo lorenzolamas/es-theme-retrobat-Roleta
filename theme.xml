@@ -31,6 +31,19 @@ version         1.0
 	<include subset="personagem" name="spiderman">./fundo/spiderman.xml</include>
 
 <!--
+Clock position
+-->
+
+<view name="screen">
+<text name="clock">
+
+		<fontSize>0.04</fontSize>
+		<pos>0.94 0.945</pos>
+		<size>0.05 0.058</size>
+		<verticalAlignment>right</verticalAlignment>
+		</text>
+</view>
+<!--
 Carousel wheel and main menu background
 -->
 
