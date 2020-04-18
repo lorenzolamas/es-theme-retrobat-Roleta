@@ -59,6 +59,7 @@ Carousel wheel and main menu background
         <linearSmooth>true</linearSmooth>
         </image>
 <carousel name="systemcarousel">
+		<defaultTransition>instant</defaultTransition>
         <zIndex>43</zIndex>	      
         <type>vertical_wheel</type>
         <pos>-0.216 0</pos>
