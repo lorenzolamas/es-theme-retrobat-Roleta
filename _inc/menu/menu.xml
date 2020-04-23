@@ -20,9 +20,9 @@
             <fontSize>0.035</fontSize>
             <color>969696</color>
             <separatorColor>323232FF</separatorColor>
-            <selectorColor>ffff00</selectorColor>
-            <selectorColorEnd>ffff00</selectorColorEnd>
-            <selectedColor>>fffff</selectedColor>
+            <selectorColor>0571df</selectorColor>
+            <selectorColorEnd>0571df00</selectorColorEnd>
+            <selectedColor>ffffff</selectedColor>
         </menuText>
 
          <menuTextSmall name="menutextsmall">

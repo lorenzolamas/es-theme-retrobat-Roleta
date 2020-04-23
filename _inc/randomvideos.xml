@@ -1,0 +1,29 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+ <view name="system">
+
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<path>./${system.theme}/_inc/system.mp4</path>		
+		<origin>0.5 0.5</origin>
+		<size>0.6 0.8</size>
+		<pos>0.65 0.485</pos>
+		<delay>1</delay>
+		<effect>none</effect>		
+		<default>./noise.mp4</default>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>2</zIndex>      
+    </video>
+
+
+</view> 
+   
+   
+   
+
+</theme>
