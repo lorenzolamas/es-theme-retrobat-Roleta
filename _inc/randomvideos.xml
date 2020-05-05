@@ -5,11 +5,29 @@
    
  <view name="system">
 
+	<image name="screen_effect" extra="true">
+		<path>./effect_crt.png</path>
+		<size>0.6 0.8</size>
+		<pos>0.65 0.485</pos>
+		<origin>0.5 0.5</origin>
+		<tile>true</tile>
+		<zIndex>3</zIndex>
+	</image>
+		
+    <video name="backvideo" extra="true">
+		<path>./black.mp4</path>		
+		<origin>0.5 0.5</origin>
+		<pos>0.65 0.485</pos>
+		<size>0.6 0.8</size>		
+		<delay>0.6</delay>
+		<color>000000</color>
+		<zIndex>1</zIndex>      
+    </video>
+	
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<path>./${system.theme}/_inc/system.mp4</path>		
 		<origin>0.5 0.5</origin>
-		<size>0.6 0.8</size>
 		<pos>0.65 0.485</pos>
 		<delay>1</delay>
 		<effect>none</effect>		

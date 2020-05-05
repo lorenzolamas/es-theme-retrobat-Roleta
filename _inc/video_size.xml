@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+    <video name="backgroundvideo" extra="true">
+		<size>0.6 0.8</size>
+    </video>
+
+</view>    
+
+<view name="video"> 
+
+    <video name="md_video">
+        <size>0.350 0.37</size>
+    </video> 
+
+</view>
+   
+<view name="grid"> 
+
+    <video name="md_video">
+		<size>0.6 0.8</size>
+    </video> 
+
+   </view>
+      
+</theme>
