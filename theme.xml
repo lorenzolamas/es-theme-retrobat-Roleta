@@ -106,10 +106,12 @@ version         1.0
 
 	<view name="system, basic, detailed, video">
 		<image name="logo">
+<linearSmooth>true</linearSmooth>
 			<path>./${system.theme}/_inc/system.png</path>
 		</image>
 	</view>
-	<view name="system,basic">		
+	<view name="system,basic">	
+	
       <image name="system-background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -146,6 +148,7 @@ Carousel wheel and main menu background
         <linearSmooth>true</linearSmooth>
         </image>
 <carousel name="systemcarousel">
+<linearSmooth>true</linearSmooth>
 		<defaultTransition>instant</defaultTransition>
         <zIndex>43</zIndex>	      
         <type>vertical_wheel</type>
@@ -184,6 +187,12 @@ On Screen help
 -->
 
    <view name="system">
+<image name="background" extra="true">
+            <linearSmooth>true</linearSmooth>
+        </image>
+<image name="character" extra="true">
+            <linearSmooth>true</linearSmooth>
+        </image>
       <helpsystem name="help">
          <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
          <fontSize>0.03</fontSize>     
@@ -194,6 +203,7 @@ On Screen help
    </view>  
 
    <view name="basic,detailed,video">
+
       <helpsystem name="help">
          <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
          <fontSize>0.03</fontSize>     
@@ -208,6 +218,7 @@ System Gamelist
 --> 
 
    <view name="basic,detailed,video">
+
       <textlist name="gamelist">
          <zIndex>5</zIndex>	      
          <selectorColor>1c1c1c00</selectorColor> 
@@ -231,6 +242,7 @@ System View Backgrounds
     
    
    <view name="basic">
+
       <image name="background2" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -246,6 +258,7 @@ System View Backgrounds
          <zIndex>2</zIndex>          
       </image>      
       <image name="logo">
+<linearSmooth>true</linearSmooth>
          <origin>0.0 0.0</origin>      
          <pos>0.76 0.931</pos>
          <maxSize>0.15 0.1</maxSize>
@@ -260,6 +273,7 @@ System View Backgrounds
    </view> 
     
    <view name="detailed,video">
+
       <image name="background2" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -281,7 +295,8 @@ Metadata, description, rating etc
 -->      
     
 
-   <view name="video,detailed">   
+   <view name="video,detailed"> 
+
       <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
          <pos>1 1</pos>
       </text>
@@ -399,7 +414,9 @@ Images, boxart, snaps, wheel art etc
 
 
    <view name="detailed">
+
       <image name="logo">
+<linearSmooth>true</linearSmooth>
          <origin>0.0 0.0</origin>      
          <pos>0.76 0.931</pos>
          <maxSize>0.15 0.1</maxSize>
@@ -414,7 +431,9 @@ Images, boxart, snaps, wheel art etc
    </view>
 
    <view name="video"> 
+
       <image name="logo">
+<linearSmooth>true</linearSmooth>
          <origin>0.0 0.0</origin>      
          <pos>0.76 0.931</pos>
          <maxSize>0.15 0.1</maxSize>
@@ -440,6 +459,7 @@ Images, boxart, snaps, wheel art etc
 
 
    <view name="system, detailed, video, grid">
+
       <image name="character" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
